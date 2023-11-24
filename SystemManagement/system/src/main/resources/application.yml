@@ -1,0 +1,37 @@
+server:
+  port: 8080
+spring:
+  datasource:
+    driverClassName: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/test001?serverTimezone=GMT%2B8
+    username: root
+    password: Hzy@1234
+
+  ######################### redis 配置 #########################
+  redis:
+    host: localhost
+    password: Hzy@1234
+    database: 0
+    port: 6379
+
+
+
+jwt:
+  # 密匙KEY
+  secret: JWTSecret
+  # HeaderKEY
+  tokenHeader: Authorization
+  # Token前缀字符
+  tokenPrefix: Bearer
+  # 过期时间 单位秒 1天后过期=86400 7天后过期=604800
+  expiration: 86400
+
+mybatis-plus:
+  mapper-locations: classpath:mapper/*.xml
+  global-config:
+    db-config:
+      id-type: AUTO
+  configuration:
+    map-underscore-to-camel-case: true
+    # 打印sql
+#    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl

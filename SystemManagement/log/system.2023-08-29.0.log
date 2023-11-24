@@ -1,0 +1,2 @@
+2023-08-29 22:15:58,424 INFO (StartupInfoLogger.java:55)- Starting SystemApplication using Java 17.0.7 on DESKTOP-JSB32JQ with PID 15228 (F:\Intern\MicrosoftJava\0813\SystemManagement(5)\SystemManagement\system\target\classes started by Hzy in F:\Intern\MicrosoftJava\0813\SystemManagement(5)\SystemManagement)
+2023-08-29 22:15:58,431 INFO (SpringApplication.java:680)- No active profile set, falling back to 1 default profile: "default"
